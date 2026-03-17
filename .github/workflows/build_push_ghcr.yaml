@@ -1,8 +1,7 @@
 name: Build and Push to GHCR
 
 on:
-  push:
-    branches: [ "main" ] # Triggers on push to main
+  workflow_dispatch: 
 
 env:
   REGISTRY: ghcr.io
